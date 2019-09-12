@@ -18,6 +18,7 @@ public class ContactsPage extends BaseTest{
 
 	 public ContactsPage()  {
 		PageFactory.initElements(driver, this);
+		System.out.println("Sout");
 	}	
 
 }
